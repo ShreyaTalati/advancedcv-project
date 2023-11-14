@@ -28,3 +28,9 @@
 ### GPT4V_selected_results_part3.npy
 - Number of images captioned (cumulative): 75
 - Created at (Central Time): 2023-11-13 15:01:11.469836-06:00
+### GPT4V_selected_results_part4.npy
+- Number of images captioned (cumulative): 102
+- Created at (Central Time): 2023-11-13 21:19:12.525039-06:00
+### GPT4V_selected_results_part5.npy
+- Number of images captioned (cumulative): 121
+- Created at (Central Time): 2023-11-14 02:10:39.703438-06:00
