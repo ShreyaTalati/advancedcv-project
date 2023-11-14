@@ -19,3 +19,9 @@
 ## OpenAI Settings
 - Token number per request: 90
 ## Result Files
+### GPT4V_selected_results_part1.npy
+- Number of images captioned (cumulative): 22
+- Created at (Central Time): 2023-11-14 12:36:34.376346-06:00
+### GPT4V_selected_results_part2.npy
+- Number of images captioned (cumulative): 32
+- Created at (Central Time): 2023-11-14 12:38:02.174048-06:00
