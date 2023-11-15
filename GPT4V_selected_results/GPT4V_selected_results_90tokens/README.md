@@ -19,3 +19,5 @@
 ## OpenAI Settings
 - Token number per request: 90
 ## Result Files
+### GPT4V_selected_results_test_90tokens.npy
+- Number of images captioned: 130
