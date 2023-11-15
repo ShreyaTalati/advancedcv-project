@@ -21,3 +21,6 @@
 ## Result Files
 ### GPT4V_selected_results_test_90tokens.npy
 - Number of images captioned: 130
+### GPT4V_selected_results_test_90tokens_cleaned.npy
+- Caption handled
+- Number of images captioned: 130
