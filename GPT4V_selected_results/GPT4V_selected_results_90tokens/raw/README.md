@@ -55,3 +55,12 @@
 ### GPT4V_selected_results_part12.npy
 - Number of images captioned (cumulative): 94
 - Created at (Central Time): 2023-11-15 11:57:02.613855-06:00
+### GPT4V_selected_results_part13.npy
+- Number of images captioned (cumulative): 96
+- Created at (Central Time): 2023-11-15 13:28:00.773804-06:00
+### GPT4V_selected_results_part14.npy
+- Number of images captioned (cumulative): 125
+- Created at (Central Time): 2023-11-15 15:07:30.895892-06:00
+### GPT4V_selected_results_part15.npy
+- Number of images captioned (cumulative): 127
+- Created at (Central Time): 2023-11-15 15:08:50.722243-06:00
