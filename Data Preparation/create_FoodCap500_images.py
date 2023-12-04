@@ -6,7 +6,8 @@ as the Foodcap500 dataset only have the .json file wiht filename, category and c
 import os
 import re
 import shutil
-
+import PIL
+from PIL import ImageFile
 
 def tranfer(file, copy_dir, folder):
     if(not os.path.exists(copy_dir)):
@@ -23,6 +24,14 @@ def tranfer(file, copy_dir, folder):
             dst_dir = os.path.join(copy_dir, cat)
             if(not os.path.exists(dst_dir)):
                 os.mkdir(dst_dir, mode = 0o777)
+                
+            try:
+                pilImg = PIL.Image.open(os.path.join(folder, filename))
+                pilImg.load()
+            except IOError as e:
+                print("Error: " + str(e) + " in file " + str(file))
+                continue
+
             try:
                 shutil.copy(os.path.join(folder, filename), dst_dir)
             except FileNotFoundError:
