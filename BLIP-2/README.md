@@ -1,13 +1,13 @@
 This folder contains all code and results for experiments with BLIP-2 models.
-- BLIP-2 Finetuning - All.ipynb: Code for fine-tuning BLIP-2 on the entire fine-tuning set of Food-500 Cap
-- BLIP-2 Finetuning - Subset.ipynb: Code for fine-tuning BLIP-2 on a subset of fine-tuning set of Food-500 Cap
-- BLIP-2 Finetuning - Challenging.ipynb: Code for fine-tuning out-of-distribution (OOD) BLIP-2 on the fine-tuning set of Food-500 Cap excluding images from the 13 identified challenging labels from Chinese, Indian, and Japanese cusines.
-- BLIP-2 Inference.ipynb: Code for generating captions on the test set with different BLIP-2 models
-- BLIP-2 Evaluation.ipynb: Code for computing captioning performance metrics and selecting example images for different BLIP-2 models
-- Results/
-  - BLIP2_original_naive_captioning_results.npy: Generated captions by naive captioning on the test set of Food-500 Cap using the original BLIP-2 model
-  - BLIP2_original_multiple_prompted_captioning_results.npy: Generated captions by prompted captioning on the test set of Food-500 Cap using the original BLIP-2 model
-  - BLIP2_original_VQA_results.npy: Generated captions by VQA on the test set of Food-500 Cap using the original BLIP-2 model
-  - BLIP2_finetuned_all_naive_captioning_results.npy: Generated captions by naive captioning on the test set of Food-500 Cap using the fine-tuned BLIP-2 model trained on the entire fine-tuning set
-  - BLIP2_finetuned_sub_naive_captioning_results.npy: Generated captions by naive captioning on the test set of Food-500 Cap using the fine-tuned BLIP-2 model trained on a subset of the fine-tuning set
-  - BLIP2_finetuned_challenging_naive_captioning_results_on_test.npy: Generated captions by naive captioning on the test set of Food-500 Cap using the fine-tuned OOD BLIP-2 model
+- `BLIP-2 Finetuning - All.ipynb`: Code for fine-tuning BLIP-2 on the entire fine-tuning set of Food-500 Cap
+- `BLIP-2 Finetuning - Subset.ipynb`: Code for fine-tuning BLIP-2 on a subset of fine-tuning set of Food-500 Cap
+- `BLIP-2 Finetuning - Challenging.ipynb`: Code for fine-tuning out-of-distribution (OOD) BLIP-2 on the fine-tuning set of Food-500 Cap excluding images from the 13 identified challenging labels from Chinese, Indian, and Japanese cusines.
+- `BLIP-2 Inference.ipynb`: Code for generating captions on the test set with different BLIP-2 models
+- `BLIP-2 Evaluation.ipynb`: Code for computing captioning performance metrics and selecting example images for different BLIP-2 models
+- `Results/`
+  - `BLIP2_original_naive_captioning_results.npy`: Generated captions by naive captioning on the test set of Food-500 Cap using the original BLIP-2 model
+  - `BLIP2_original_multiple_prompted_captioning_results.npy`: Generated captions by prompted captioning on the test set of Food-500 Cap using the original BLIP-2 model
+  - `BLIP2_original_VQA_results.npy`: Generated captions by VQA on the test set of Food-500 Cap using the original BLIP-2 model
+  - `BLIP2_finetuned_all_naive_captioning_results.npy`: Generated captions by naive captioning on the test set of Food-500 Cap using the fine-tuned BLIP-2 model trained on the entire fine-tuning set
+  - `BLIP2_finetuned_sub_naive_captioning_results.npy`: Generated captions by naive captioning on the test set of Food-500 Cap using the fine-tuned BLIP-2 model trained on a subset of the fine-tuning set
+  - `BLIP2_finetuned_challenging_naive_captioning_results_on_test.npy`: Generated captions by naive captioning on the test set of Food-500 Cap using the fine-tuned OOD BLIP-2 model
